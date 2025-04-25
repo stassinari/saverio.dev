@@ -1,5 +1,6 @@
 ---
 import "@fontsource-variable/noto-serif";
+import "../styles/global.css";
 ---
 
 <!doctype html>
@@ -34,26 +35,9 @@ import "@fontsource-variable/noto-serif";
 
     <title>Saverio Tassinari - Tech Lead</title>
   </head>
-  <body>
+  <body
+    class="m-0 w-full h-full text-zinc-900 dark:text-amber-50 bg-amber-50 dark:bg-zinc-900"
+  >
     <slot />
   </body>
 </html>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-
-    font-family: "Noto Serif Variable", serif;
-    color: #444444;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #444444;
-      color: #ffffff;
-    }
-  }
-</style>
