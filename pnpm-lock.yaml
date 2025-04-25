@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/noto-serif':
+        specifier: ^5.2.6
+        version: 5.2.6
       astro:
         specifier: ^5.7.5
         version: 5.7.5(rollup@4.40.0)(typescript@5.8.3)
@@ -203,6 +206,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/noto-serif@5.2.6':
+    resolution: {integrity: sha512-9Gq2ID5Cjpv831L56rBsQCHi/aBgtqXcef9Dyr1cWLp6m/DjaTVFerNfuY4OFqH37kmfa/eNtflMb6nGHTYO1A==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1581,6 +1587,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.3':
     optional: true
+
+  '@fontsource-variable/noto-serif@5.2.6': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
