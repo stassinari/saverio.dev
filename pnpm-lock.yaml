@@ -8,39 +8,15 @@ importers:
 
   .:
     dependencies:
-      '@fontsource-variable/crimson-pro':
-        specifier: ^5.2.5
-        version: 5.2.5
-      '@fontsource-variable/eb-garamond':
-        specifier: ^5.2.5
-        version: 5.2.5
       '@fontsource-variable/inter':
         specifier: ^5.2.5
         version: 5.2.5
       '@fontsource-variable/lora':
         specifier: ^5.2.5
         version: 5.2.5
-      '@fontsource-variable/merriweather':
-        specifier: ^5.2.2
-        version: 5.2.2
-      '@fontsource-variable/noto-serif':
-        specifier: ^5.2.6
-        version: 5.2.6
-      '@fontsource-variable/open-sans':
-        specifier: ^5.2.5
-        version: 5.2.5
-      '@fontsource-variable/playfair-display':
-        specifier: ^5.2.5
-        version: 5.2.5
-      '@fontsource-variable/raleway':
-        specifier: ^5.2.5
-        version: 5.2.5
-      '@fontsource-variable/roboto':
-        specifier: ^5.2.5
-        version: 5.2.5
-      '@fontsource-variable/source-sans-3':
-        specifier: ^5.2.7
-        version: 5.2.7
+      '@tailwindcss/typography':
+        specifier: ^0.5.16
+        version: 0.5.16(tailwindcss@4.1.4)
       '@tailwindcss/vite':
         specifier: ^4.1.4
         version: 4.1.4(vite@6.3.3(jiti@2.4.2)(lightningcss@1.29.2))
@@ -50,10 +26,6 @@ importers:
       tailwindcss:
         specifier: ^4.1.4
         version: 4.1.4
-    devDependencies:
-      '@tailwindcss/typography':
-        specifier: ^0.5.16
-        version: 0.5.16(tailwindcss@4.1.4)
 
 packages:
 
@@ -247,38 +219,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource-variable/crimson-pro@5.2.5':
-    resolution: {integrity: sha512-+F/8QxteTDMYjVomoX0NsEfEw7bT0BnNS6R8D/l7nUbiuALcfV0MDmhb4hY4IVgyvAtlFGPJkLQMuKBtyaxBJQ==}
-
-  '@fontsource-variable/eb-garamond@5.2.5':
-    resolution: {integrity: sha512-vB5II+OZYCc1cetgSPXpOw38KW9nAwnV/YqLWYO/25OeTqVblIDnQM9OPEIcKbaXGGdkfFsrI2gs+KllTsFhfg==}
-
   '@fontsource-variable/inter@5.2.5':
     resolution: {integrity: sha512-TrWffUAFOnT8zroE9YmGybagoOgM/HjRqMQ8k9R0vVgXlnUh/vnpbGPAS/Caz1KIlOPnPGh6fvJbb7DHbFCncA==}
 
   '@fontsource-variable/lora@5.2.5':
     resolution: {integrity: sha512-eupTrzQnDFr3i9pci0efxfT0mCjGmWJNmDyvsl9Wq11JCyNr5ZN7bTjhIT6/q9daq5CshTsowg0/BH2gERbtXQ==}
-
-  '@fontsource-variable/merriweather@5.2.2':
-    resolution: {integrity: sha512-DZjuulo723T3TTf9ibAuWA2y1jsLlA+zDSA6j5AdnJF5rvpjlE9B/IRFiHt5rmKMdAS8tHF5GTEfQ9dwBRMtow==}
-
-  '@fontsource-variable/noto-serif@5.2.6':
-    resolution: {integrity: sha512-9Gq2ID5Cjpv831L56rBsQCHi/aBgtqXcef9Dyr1cWLp6m/DjaTVFerNfuY4OFqH37kmfa/eNtflMb6nGHTYO1A==}
-
-  '@fontsource-variable/open-sans@5.2.5':
-    resolution: {integrity: sha512-++xRfkZAxNP4e1Spm5W11iVcoYfXcNVTV5MDit60t7grRk10hy9C7XQd/jv+0TDFIfHbK9EzyBp3M3CHPesroA==}
-
-  '@fontsource-variable/playfair-display@5.2.5':
-    resolution: {integrity: sha512-nzSCC5pbWHjkJBqjPe81cPIC7fqJ6U5DwJ6tec7vF1bQ2DJnaKRBZluRQJuseFpACZLTN8LeN/1gBQEA7PnKOw==}
-
-  '@fontsource-variable/raleway@5.2.5':
-    resolution: {integrity: sha512-+7xYA98t16DzKWvbkPf3lSkieQKaKbZKpZFug4oOHCogIvGQ5qBsyGV/F8JNXzuSfqq9qn0hDx5wsHxUsxFB5w==}
-
-  '@fontsource-variable/roboto@5.2.5':
-    resolution: {integrity: sha512-csqBSOWXv0h5IbPhEqYJua6/nxl7dSNZbBOMeXSO9aqzgPw3GpfgC9kL5M6ULFLRaoDoBD4U9QctoDLKMaTyMg==}
-
-  '@fontsource-variable/source-sans-3@5.2.7':
-    resolution: {integrity: sha512-QTQui6DC6AS1rev6IqJ1t0QC5hON2cZzY1IKzTYMwjIWnAGkArgZb+DgWtwVUe3VoMASJuAtTKDTUnmgkLozsA==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1851,27 +1796,9 @@ snapshots:
   '@esbuild/win32-x64@0.25.3':
     optional: true
 
-  '@fontsource-variable/crimson-pro@5.2.5': {}
-
-  '@fontsource-variable/eb-garamond@5.2.5': {}
-
   '@fontsource-variable/inter@5.2.5': {}
 
   '@fontsource-variable/lora@5.2.5': {}
-
-  '@fontsource-variable/merriweather@5.2.2': {}
-
-  '@fontsource-variable/noto-serif@5.2.6': {}
-
-  '@fontsource-variable/open-sans@5.2.5': {}
-
-  '@fontsource-variable/playfair-display@5.2.5': {}
-
-  '@fontsource-variable/raleway@5.2.5': {}
-
-  '@fontsource-variable/roboto@5.2.5': {}
-
-  '@fontsource-variable/source-sans-3@5.2.7': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
