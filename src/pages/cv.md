@@ -24,7 +24,7 @@ A digital consultancy focused on building user-centric products for enterprise a
 
 #### Tech Lead
 
-*April 2023 - present | London, UK*
+*April 2023 – present | London, UK*
 
 - Led technical audits and agile process reviews for a leading UK white-label insurance provider, resulting in actionable, phased recommendations to improve platform resilience and ways of working.
 - Directed a “Discovery” project for a global events company, conducting user research and collaborating with the client to design and prototype an AI-enhanced lead retrieval system, enabling exhibitors to capture and qualify leads more efficiently.
@@ -34,7 +34,7 @@ A digital consultancy focused on building user-centric products for enterprise a
 
 #### Senior software engineer
 
-*March 2020 - April 2023 | London, UK*
+*March 2020 – April 2023 | London, UK*
 
 - Built an internal collaboration platform for a global apparel brand (greenfield project), replacing fragmented workflows (emails, spreadsheets) and enabling global teams to assort products digitally — key technologies included React, Relay, Tailwind, Prisma, and GraphQL.
 	- Delivered a first MVP for the core assorting functionality, then expanded it with a spreadsheet-style interface (AgGrid), an infinite canvas layout (using dnd-kit), and an event-driven audit trail for changes.
@@ -47,7 +47,7 @@ Early-stage health-tech startup creating a software platform for hospitals and p
 
 #### Senior software engineer and team lead
 
-*April 2018 - January 2020 | London, UK*
+*April 2018 – January 2020 | London, UK*
 
 - Supported team growth by assisting in hiring processes and leading onboarding for new engineers.
 - Managed security audits for certifications including Cyber Essentials and IASME.
@@ -57,7 +57,7 @@ Early-stage health-tech startup creating a software platform for hospitals and p
 
 #### Software engineer
 
-*March 2016 - March 2018 | London, UK*
+*March 2016 – March 2018 | London, UK*
 
 - Quickly ramped up on a new technology stack, adopting Go for backend development and AWS for cloud infrastructure.
 - Took ownership of the platform’s front-end, selecting libraries and frameworks, and mentoring teammates on best practices.
@@ -71,7 +71,7 @@ Web agency delivering technology and user experience solutions, from design to i
 
 #### Junior software engineer (full stack)
 
-*May 2014 - February 2016 | Bologna, Italy*
+*May 2014 – February 2016 | Bologna, Italy*
 
 - Built a strong foundation in front-end development, focusing on responsive and accessible HTML, CSS preprocessors, and JavaScript.
 - Developed robust REST APIs in Java, using frameworks like Struts and Hibernate.
@@ -82,13 +82,13 @@ Web agency delivering technology and user experience solutions, from design to i
 
 ### Web app development course
 
-*Ecipar, Bologna (Training institution) | October 2013 - September 2014*
+*Ecipar, Bologna (Training institution) | October 2013 – September 2014*
 
 - Year-long course that taught me the fundamentals of web development and led to my first job in the field.
 
-### Bachelor's Degree in Mathematics
+### Bachelor’s Degree in Mathematics
 
-*Alma Mater Studiorum - Università di Bologna | September 2008 - December 2013*
+*Alma Mater Studiorum — Università di Bologna | September 2008 – December 2013*
 
 - Thesis in Computational complexity and prime numbers.
 
