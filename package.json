@@ -9,7 +9,17 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/crimson-pro": "^5.2.5",
+    "@fontsource-variable/eb-garamond": "^5.2.5",
+    "@fontsource-variable/inter": "^5.2.5",
+    "@fontsource-variable/lora": "^5.2.5",
+    "@fontsource-variable/merriweather": "^5.2.2",
     "@fontsource-variable/noto-serif": "^5.2.6",
+    "@fontsource-variable/open-sans": "^5.2.5",
+    "@fontsource-variable/playfair-display": "^5.2.5",
+    "@fontsource-variable/raleway": "^5.2.5",
+    "@fontsource-variable/roboto": "^5.2.5",
+    "@fontsource-variable/source-sans-3": "^5.2.7",
     "@tailwindcss/vite": "^4.1.4",
     "astro": "^5.7.5",
     "tailwindcss": "^4.1.4"
