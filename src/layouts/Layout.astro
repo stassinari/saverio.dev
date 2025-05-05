@@ -1,14 +1,6 @@
 ---
-import "@fontsource-variable/crimson-pro";
-import "@fontsource-variable/eb-garamond";
 import "@fontsource-variable/inter";
 import "@fontsource-variable/lora";
-import "@fontsource-variable/merriweather";
-import "@fontsource-variable/open-sans";
-import "@fontsource-variable/playfair-display";
-import "@fontsource-variable/raleway";
-import "@fontsource-variable/roboto";
-import "@fontsource-variable/source-sans-3";
 import "../styles/global.css";
 ---
 
@@ -64,62 +56,17 @@ import "../styles/global.css";
       >
     </header>
 
-    <!-- Font Pair Selector -->
-    <div class="p-4 flex gap-4 items-center">
-      <label for="font-selector" class="block text-lg font-medium"
-        >Choose Font Pair:</label
-      >
-      <select id="font-selector" class="p-2 border rounded">
-        <option value="font-pair-1">Playfair Display + Source Sans Pro</option>
-        <option value="font-pair-2">Lora + Inter</option>
-        <option value="font-pair-3">Merriweather + Open Sans</option>
-        <option value="font-pair-4">Crimson Text + Raleway</option>
-        <option value="font-pair-5">EB Garamond + Roboto</option>
-      </select>
-    </div>
-
     <main class="p-4 prose lg:prose-lg">
       <slot />
     </main>
-
-    <script>
-      const fontSelector = document.getElementById("font-selector");
-
-      fontSelector &&
-        fontSelector.addEventListener("change", (event) => {
-          const selectedFontPair =
-            (event.target as HTMLSelectElement)?.value || "";
-          document.documentElement.className = selectedFontPair;
-        });
-    </script>
   </body>
 </html>
 
 <style>
-  /* Define font pair classes as top-level classes */
-  .font-pair-1 {
-    --font-heading: "Playfair Display Variable", serif;
-    --font-base: "Source Sans 3 Variable", sans-serif;
-  }
-  .font-pair-2 {
+  html {
     --font-heading: "Lora Variable", serif;
     --font-base: "Inter Variable", sans-serif;
-  }
-  .font-pair-3 {
-    --font-heading: "Merriweather Variable", serif;
-    --font-base: "Open Sans Variable", sans-serif;
-  }
-  .font-pair-4 {
-    --font-heading: "Crimson Pro Variable", serif;
-    --font-base: "Raleway Variable", sans-serif;
-  }
-  .font-pair-5 {
-    --font-heading: "EB Garamond Variable", serif;
-    --font-base: "Roboto Variable", sans-serif;
-  }
 
-  /* Apply the CSS variables */
-  html {
     font-family: var(--font-base);
 
     h1,
