@@ -1,5 +1,6 @@
 ---
-import "@fontsource-variable/noto-serif";
+import "@fontsource-variable/inter";
+import "@fontsource-variable/lora";
 import "../styles/global.css";
 ---
 
@@ -11,12 +12,12 @@ import "../styles/global.css";
 
     <meta
       name="description"
-      content="Saverio Tassinari. At work I'm a backend, front-end, and DevOps dev. At home I have too many passions to list here."
+      content="Saverio Tassinari — Tech Lead and Software Engineer based in London, with over 10 years of experience building user-focused digital products in cross-functional teams."
     />
     <meta name="author" content="Saverio Tassinari" />
     <meta
       name="keywords"
-      content="Saverio Tassinari, Tech Lead, Software Engineer, Backend, Frontend, DevOps"
+      content="Saverio Tassinari, software engineer, tech lead, full-stack developer, London, web development, product engineering, cross-functional teams, Rust, React, Typescript, AWS"
     />
 
     <link
@@ -33,11 +34,48 @@ import "../styles/global.css";
     />
     <meta name="generator" content={Astro.generator} />
 
-    <title>Saverio Tassinari - Tech Lead</title>
+    <title>Saverio Tassinari — Tech Lead</title>
   </head>
   <body
-    class="m-0 w-full h-full text-zinc-900 dark:text-amber-50 bg-amber-50 dark:bg-zinc-900"
+    class="mx-auto max-w-3xl m-0 w-full h-full text-zinc-900 dark:text-amber-50 bg-amber-50 dark:bg-zinc-900"
   >
-    <slot />
+    <header class="flex justify-between items-center mx-auto p-4">
+      <nav class="flex items-center gap-8">
+        <ul class="flex space-x-4">
+          <li>
+            <a href="/" class="text-lg font-medium underline">Home</a>
+          </li>
+          <li>
+            <a href="/cv" class="text-lg font-medium underline">CV</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="mailto:hello@saverio.dev" class="text-lg font-medium underline"
+        >hello@saverio.dev</a
+      >
+    </header>
+
+    <main class="p-4 prose lg:prose-lg">
+      <slot />
+    </main>
   </body>
 </html>
+
+<style>
+  html {
+    --font-heading: "Lora Variable", serif;
+    --font-base: "Inter Variable", sans-serif;
+
+    font-family: var(--font-base);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: var(--font-heading) !important;
+    }
+  }
+</style>
